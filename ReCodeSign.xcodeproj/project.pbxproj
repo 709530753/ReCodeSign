@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D25BED21FEB08D00EA31D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D25BEC21FEB08D00EA31D9 /* AppDelegate.m */; };
+		52D25BF021FEB08D00EA31D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D25BEF21FEB08D00EA31D9 /* ViewController.m */; };
+		52D25BF321FEB08D00EA31D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D25BF121FEB08D00EA31D9 /* Main.storyboard */; };
+		52D25BF521FEB08E00EA31D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D25BF421FEB08E00EA31D9 /* Assets.xcassets */; };
+		52D25BF821FEB08E00EA31D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D25BF621FEB08E00EA31D9 /* LaunchScreen.storyboard */; };
+		52D25BFB21FEB08E00EA31D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D25BFA21FEB08E00EA31D9 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52D25BE821FEB08D00EA31D9 /* ReCodeSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReCodeSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D25BEB21FEB08D00EA31D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52D25BEC21FEB08D00EA31D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52D25BEE21FEB08D00EA31D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52D25BEF21FEB08D00EA31D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52D25BF221FEB08D00EA31D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D25BF421FEB08E00EA31D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D25BF721FEB08E00EA31D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D25BF921FEB08E00EA31D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D25BFA21FEB08E00EA31D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D25BE521FEB08D00EA31D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D25BDF21FEB08D00EA31D9 = {
+			isa = PBXGroup;
+			children = (
+				52D25BEA21FEB08D00EA31D9 /* ReCodeSign */,
+				52D25BE921FEB08D00EA31D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D25BE921FEB08D00EA31D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D25BE821FEB08D00EA31D9 /* ReCodeSign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D25BEA21FEB08D00EA31D9 /* ReCodeSign */ = {
+			isa = PBXGroup;
+			children = (
+				52D25BEB21FEB08D00EA31D9 /* AppDelegate.h */,
+				52D25BEC21FEB08D00EA31D9 /* AppDelegate.m */,
+				52D25BEE21FEB08D00EA31D9 /* ViewController.h */,
+				52D25BEF21FEB08D00EA31D9 /* ViewController.m */,
+				52D25BF121FEB08D00EA31D9 /* Main.storyboard */,
+				52D25BF421FEB08E00EA31D9 /* Assets.xcassets */,
+				52D25BF621FEB08E00EA31D9 /* LaunchScreen.storyboard */,
+				52D25BF921FEB08E00EA31D9 /* Info.plist */,
+				52D25BFA21FEB08E00EA31D9 /* main.m */,
+			);
+			path = ReCodeSign;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D25BE721FEB08D00EA31D9 /* ReCodeSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D25BFE21FEB08E00EA31D9 /* Build configuration list for PBXNativeTarget "ReCodeSign" */;
+			buildPhases = (
+				52D25BE421FEB08D00EA31D9 /* Sources */,
+				52D25BE521FEB08D00EA31D9 /* Frameworks */,
+				52D25BE621FEB08D00EA31D9 /* Resources */,
+				52D25C0121FEB0D000EA31D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReCodeSign;
+			productName = ReCodeSign;
+			productReference = 52D25BE821FEB08D00EA31D9 /* ReCodeSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D25BE021FEB08D00EA31D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = myxc;
+				TargetAttributes = {
+					52D25BE721FEB08D00EA31D9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 52D25BE321FEB08D00EA31D9 /* Build configuration list for PBXProject "ReCodeSign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D25BDF21FEB08D00EA31D9;
+			productRefGroup = 52D25BE921FEB08D00EA31D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D25BE721FEB08D00EA31D9 /* ReCodeSign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D25BE621FEB08D00EA31D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D25BF821FEB08E00EA31D9 /* LaunchScreen.storyboard in Resources */,
+				52D25BF521FEB08E00EA31D9 /* Assets.xcassets in Resources */,
+				52D25BF321FEB08D00EA31D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52D25C0121FEB0D000EA31D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /Users/myxc/Desktop/ReCodeSign/recodesign.sh;
+			shellScript = "\n#找到当前ipa\nTARGET_IPA_PATH=\"${SRCROOT}/APP/*.ipa\"\necho \"根目录\" + \"${TARGET_IPA_PATH}\"\n\nTEMP_FLDER_PATH=\"${SRCROOT}/Temp\"\n\n#创建temp文件夹\nrm -rf \"${TEMP_FLDER_PATH}\"\nmkdir -p \"${TEMP_FLDER_PATH}\"\n\n#解压ipa\nunzip \"${TARGET_IPA_PATH}\" -d \"${TEMP_FLDER_PATH}/\"\n\n#找到Payload 目录的.app文件\n\n#TEMP_APP_PATH=\"$TEMP_FLDER_PATH/Payload/*.app\"\n#比较坑\nTEMP_APP_PATH=$(set -- \"$TEMP_FLDER_PATH/Payload/\"*.app;echo \"$1\")\n\n\necho \"包路径：\" + \"${TEMP_APP_PATH}\"\n\n#将.app拷贝工程目录\nTARGET_APP_PATH=\"$BUILT_PRODUCTS_DIR/$TARGET_NAME.app\"\necho \"工程目录下的app : ${TARGET_APP_PATH}\"\n\nrm -rf \"$TARGET_APP_PATH\"\nmkdir -p \"$TARGET_APP_PATH\"\ncp -rf \"$TEMP_APP_PATH/\" \"$TARGET_APP_PATH\"\n\n#删除Watch PlugIns\nrm -rf \"$TARGET_APP_PATH/Watch\" \"$TARGET_APP_PATH/PlugIns\"\n\n#修改bundleIdentity\necho \"包名：\" \"${PRODUCT_BUNDLE_IDENTIFIER}\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier $PRODUCT_BUNDLE_IDENTIFIER\" \"$TARGET_APP_PATH/Info.plist\"\n\n#获取macho文件权限\n\n# 5. 给MachO文件上执行权限\n# 拿到MachO文件的路径\nAPP_BINARY=`plutil -convert xml1 -o - $TARGET_APP_PATH/Info.plist|grep -A1 Exec|tail -n1|cut -f2 -d\\>|cut -f1 -d\\<`\n#上可执行权限\nchmod +x \"$TARGET_APP_PATH/$APP_BINARY\"\n\n#重签名frameworks\n#----------------------------------------\n# 6. 重签名第三方 FrameWorks\nTARGET_APP_FRAMEWORKS_PATH=\"$TARGET_APP_PATH/Frameworks\"\nif [ -d \"$TARGET_APP_FRAMEWORKS_PATH\" ];\nthen\nfor FRAMEWORK in \"$TARGET_APP_FRAMEWORKS_PATH/\"*\ndo\n\n#签名\n/usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" \"$FRAMEWORK\"\ndone\nfi\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D25BE421FEB08D00EA31D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D25BF021FEB08D00EA31D9 /* ViewController.m in Sources */,
+				52D25BFB21FEB08E00EA31D9 /* main.m in Sources */,
+				52D25BED21FEB08D00EA31D9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52D25BF121FEB08D00EA31D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D25BF221FEB08D00EA31D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D25BF621FEB08E00EA31D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D25BF721FEB08E00EA31D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D25BFC21FEB08E00EA31D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52D25BFD21FEB08E00EA31D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D25BFF21FEB08E00EA31D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWCLQXYG22;
+				INFOPLIST_FILE = ReCodeSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ReCodeSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D25C0021FEB08E00EA31D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWCLQXYG22;
+				INFOPLIST_FILE = ReCodeSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ReCodeSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D25BE321FEB08D00EA31D9 /* Build configuration list for PBXProject "ReCodeSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D25BFC21FEB08E00EA31D9 /* Debug */,
+				52D25BFD21FEB08E00EA31D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D25BFE21FEB08E00EA31D9 /* Build configuration list for PBXNativeTarget "ReCodeSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D25BFF21FEB08E00EA31D9 /* Debug */,
+				52D25C0021FEB08E00EA31D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D25BE021FEB08D00EA31D9 /* Project object */;
+}
